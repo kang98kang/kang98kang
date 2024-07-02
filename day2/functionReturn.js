@@ -3,3 +3,7 @@ function runMore(distance) {
   return distance + 10;
 }
 console.log(runMore(20));
+
+function printPersonal(name, age) {
+  return "내 이름은 " + name + "이고, 나이는 " + age + "이야";
+}

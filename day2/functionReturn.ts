@@ -4,3 +4,7 @@ function runMore(distance: number): number {
 }
 
 console.log(runMore(20));
+
+function printPersonal(name: string, age: number): string {
+  return "내 이름은 " + name + "이고, 나이는 " + age + "이야";
+}
