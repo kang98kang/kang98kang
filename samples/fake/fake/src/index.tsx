@@ -19,7 +19,7 @@ const children = D.makeArray(10).map((notUsed, index) => (
   </div>
 ));
 
-const rootVirtualDOM = <div>{children}</div>;
+const rootVirtualDOM = <App />;
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
