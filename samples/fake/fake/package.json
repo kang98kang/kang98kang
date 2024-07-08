@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/material-icons": "^5.0.18",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -43,7 +44,12 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@types/chance": "^1.1.6",
-    "@types/luxon": "^3.4.2"
+    "@types/luxon": "^3.4.2",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
   }
 }

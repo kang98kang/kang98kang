@@ -31,21 +31,66 @@
 //   );
 // }
 
-import Bootstrap from "./pages/BootStrap";
-import Icons from "./pages/Icons";
-import "./index.css";
-//  import Style from './pages/Style';
-//  import UsingIcon from './pages/UsingIcon';
-//  import UsingIconWithCSSClass from './pages/UsingIconWithCSSClass'
+// import Bootstrap from "./pages/BootStrap";
+// import Icons from "./pages/Icons";
+// import "./index.css";
+// //  import Style from './pages/Style';
+// //  import UsingIcon from './pages/UsingIcon';
+// //  import UsingIconWithCSSClass from './pages/UsingIconWithCSSClass'
+
+// export default function App() {
+//   return (
+//     <div>
+//       {/* <UsingIconWithCSSClass/>
+//       <UsingIcon/>
+//       <Style/> */}
+//       <Icons />
+//       <Bootstrap />
+//     </div>
+//   );
+// }
+
+// import Tailwindcss from "./pages/Tailwindcss";
+// import Color from "./pages/Color";
+// import TextsTest from "./pages/TextsTest";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <TextsTest />
+//       <Color />
+//       <Tailwindcss />
+//     </div>
+//   );
+// }
+
+import DivTest from "./pages/DivTest";
+import HeightTest from "./pages/HeightTest";
+import PaddingTest from "./pages/PaddingTest";
+import MarginTest from "./pages/MarginTest";
+import ImageTest from "./pages/ImageTest";
+import BackgroundImageTest from "./pages/DivTest";
+import DisplayTest from "./pages/DisplayTest";
+import DisplaynoneTest from "./pages/DisplayNoneTest";
+import AvatarTest from "./pages/AvatarTest";
+import PositionTest from "./pages/PositionTest";
+import OverlayTest from "./pages/OverlayTest";
 
 export default function App() {
   return (
-    <div>
-      {/* <UsingIconWithCSSClass/>
-      <UsingIcon/>
-      <Style/> */}
-      <Icons />
-      <Bootstrap />
-    </div>
+    <main>
+      <OverlayTest />
+      <PositionTest />
+      <AvatarTest />
+      <DisplaynoneTest />
+      <DisplayTest />
+      <BackgroundImageTest />
+      <ImageTest />
+      <MarginTest />
+      <PaddingTest />
+      <HeightTest />
+      <OverlayTest />
+      <DivTest />
+    </main>
   );
 }
