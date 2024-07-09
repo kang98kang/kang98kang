@@ -5,19 +5,12 @@ type ReactSpanProps = DetailedHTMLProps<
   HTMLSpanElement
 >;
 
-export type IconsProps = ReactSpanProps & {
+export type IconProps = ReactSpanProps & {
   name: string;
 };
 
-export const Icon: FC<IconsProps> = ({
-  name,
-  className: _className,
-  ...props
-}) => {
-  const className = ["material-icons", _className].join("");
-  return (
-    <span {...props} className={className}>
-      {name}
-    </span>
-  );
-};
+// prettier-ignore
+export const Icons: FC<IconProps> = ({name, className:_classname, ...props}) => {
+  const className = ['material-icons', _classname].join(' ');
+  return <span {...props} className={className}>{name}</span>
+}

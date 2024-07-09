@@ -1,4 +1,4 @@
-import { Title, Div, Icon, Overlay } from "../components";
+import { Title, Div, Icons, Overlay } from "../components";
 
 export default function OverlayTest() {
   return (
@@ -7,7 +7,7 @@ export default function OverlayTest() {
       <Overlay>
         <Div className="relative flex items-center justify-center p-8 bg-white h-1/2">
           <Div className="absolute" right="1rem" top="1rem">
-            <Icon name="close" className="text-gray-500"></Icon>
+            <Icons name="close" className="text-gray-500"></Icons>
           </Div>
           <p className="text-5xl">modal dialog box</p>
         </Div>

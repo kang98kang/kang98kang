@@ -1,6 +1,6 @@
 export type LeftRightTopBottom = {
   left?: string;
-  right?: String;
+  right?: string;
   top?: string;
   bottom?: string;
 };
