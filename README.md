@@ -3,8 +3,8 @@
 <a href="https://github.com/devxb/gitanimals">
   <img
     src="https://render.gitanimals.org/lines/kang98kang?pet-id=646625036377255020"
-    width="400"
-    height="120"
+    width="800"
+    height="180"
   />
 </a>
   
