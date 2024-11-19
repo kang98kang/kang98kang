@@ -1,11 +1,11 @@
 <!-- Header -->
 
 <a href="https://github.com/devxb/gitanimals">
-  <img
-    src="https://render.gitanimals.org/lines/kang98kang?pet-id=646625036377255020"
-    width="800"
-    height="180"
-  />
+<img
+  src="https://render.gitanimals.org/farms/kang98kang"
+  width="600"
+  height="300"
+/>
 </a>
   
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A7B2F7&random=false&width=435&lines=Always+do+my+best)](https://git.io/typing-svg)
