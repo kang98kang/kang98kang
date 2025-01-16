@@ -6,12 +6,12 @@
 ### 🙇 안녕하세요, Full-Stack Programmer로 성장해나가고 있는 강준영입니다!
 
 
-<a href="https://github.com/devxb/gitanimals">
-  <img
-    src="https://render.gitanimals.org/lines/kang98kang?pet-id=647023259235378464"
-    width="600"
-    height="120"
-  />
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=kang98kang&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/kang98kang"
+  width="600"
+  height="300"
+/>
 </a>
   
   
